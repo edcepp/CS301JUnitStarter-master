@@ -7,6 +7,7 @@ import java.util.Random;
 /**
  * This class is designed to perform operations on two points in 2D space
  */
+
 public class TwoPoints {
 
     private Point[] points = new Point[2];
