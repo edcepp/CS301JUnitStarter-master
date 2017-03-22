@@ -63,6 +63,8 @@ public class DimCalc extends AppCompatActivity implements View.OnClickListener {
         int y1 = Integer.parseInt(y1EditText.getText().toString());
         int x2 = Integer.parseInt(x2EditText.getText().toString());
         int y2 = Integer.parseInt(y2EditText.getText().toString());
+        twoPoints.setPoint(0, x1, y1);
+        twoPoints.setPoint(1, x2, y2);
     }
 
     /** respond to button presses on the GUI */
